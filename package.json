@@ -1,0 +1,21 @@
+{
+  "name": "psvutils",
+  "version": "1.0.0",
+  "description": "Utility package for psv",
+  "main": "./lib/index.js",
+  "types": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p"
+  },
+  "keywords": [],
+  "author": "Ndamati Precious",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preshndams/psv-utils.git"
+  }
+}
