@@ -1,6 +1,6 @@
 {
   "name": "psvutils",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Utility package for psv",
   "main": "./lib/index.js",
   "types": "./index.d.ts",
