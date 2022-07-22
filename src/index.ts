@@ -7,8 +7,8 @@ import {
   TokenExpiredError,
   PaymentRequiredError,
   ValidationError,
-} from "./src/errors";
-import { setRedis, setRedisEx, getRedis, delRedis } from "./src/database/redis";
+} from "./errors";
+import { setRedis, setRedisEx, getRedis, delRedis } from "./database/redis";
 import {
   getContent,
   postContent,
@@ -23,7 +23,7 @@ import {
   globalErrorHandler,
   devLog,
   uuid,
-} from "./src/utils";
+} from "./utils";
 
 module.exports = {
   parseJSON,

@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Utility package for psv",
   "main": "./lib/index.js",
-  "types": "./lib",
+  "types": "./index.d.ts",
   "scripts": {
     "build": "tsc -p"
   },
